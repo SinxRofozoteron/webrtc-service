@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  postgres:
+    container_name: "postgres_db_service"
+    image: "postgres:15.1"
+    ports:
+      - '5433:5432'
+    environment:
+      - POSTGRES_USER=username
+      - POSTGRES_DB=webrtc_db
+      - POSTGRES_PASSWORD=password
