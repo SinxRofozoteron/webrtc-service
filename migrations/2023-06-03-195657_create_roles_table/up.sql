@@ -20,7 +20,7 @@ BEGIN
         -- Create roles table
         CREATE TABLE roles (
             id SERIAL PRIMARY KEY,
-            role USER_ROLE, -- Name of the role
+            role USER_ROLE NOT NULL, -- Name of the role
             delete_user ACCESS_TYPE, -- Starting here columns with route names, values are access types
             get_user ACCESS_TYPE,
             update_user ACCESS_TYPE
