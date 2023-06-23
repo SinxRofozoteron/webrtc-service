@@ -1,0 +1,10 @@
+base_url = "http://localhost:3001"
+
+[postgres]
+url = "postgres://username:password@localhost:5433/webrtc_db"
+
+[oauth.google]
+url = "https://accounts.google.com"
+
+[keys]
+cookies_key = "c343c30255f130c8180d786b927938784f3c70f9c9344e0907558a6294ca79139963f0f65133c369e62904bc9225dcf111f5c750dee5477a847c0696ccd62a5a"
