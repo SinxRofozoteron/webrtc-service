@@ -13,6 +13,7 @@ pub struct OAuthConfig {
     pub client_id: String,
     pub client_secret: String,
     pub url: String,
+    pub scopes: Vec<String>,
 }
 
 pub type OAuth = HashMap<SupportedOauthProviders, OAuthConfig>;

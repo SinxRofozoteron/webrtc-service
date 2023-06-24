@@ -21,6 +21,7 @@ pub fn setup_auth_clients(config: &Settings) -> AuthClients {
             client_id,
             client_secret,
             url,
+            scopes: _,
         } = oauth_config;
 
         let issuer_url = match IssuerUrl::new(url.to_owned()) {
