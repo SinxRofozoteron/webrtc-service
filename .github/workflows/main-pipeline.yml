@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Cargo test
-        run: cargo test --verbose
+        run: cargo test --verbose --color always
